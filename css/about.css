@@ -1,0 +1,72 @@
+.btnn {
+    color: #529ccd;
+    height: 45px;
+    width: 120px;
+    border: 1px solid #529ccd;
+    font-size: 16px;
+    border-radius: 0%;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+
+.gadgets1 {
+    color: #808080;
+    font-family: Ubuntu, sans-serif;
+    /* padding-top: 20px; */
+}
+
+.gadgets2 {
+    font-family: Ubuntu, sans-serif;
+}
+
+.gadgets-3 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+.img-fluid{
+    height: 200px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:767px) {
+    .img_1 {
+        width: 100%;
+        margin-bottom: 15px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .img_1 {
+        width: 100%;
+        margin-bottom: 15px;
+        height: 220px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .img_1 {
+        width: 100%;
+        margin-bottom: 15px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1220px) {
+    .img_1 {
+        width: 100%;
+        margin-bottom: 15px;
+        height: 200px;
+    }
+}
