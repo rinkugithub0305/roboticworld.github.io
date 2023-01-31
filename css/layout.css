@@ -367,6 +367,10 @@ h2,
     background-color: #e0ffff;
 } */
 
+#team{
+    overflow:hidden;
+}
+
 .team-h2,
 .team-p {
 
